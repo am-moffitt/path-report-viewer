@@ -1,0 +1,34 @@
+services:
+  frontend:
+    build: 
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    image: pathviewer-frontend
+    ports: 
+      - 3001:3000
+    volumes:
+      - ./frontend:/app
+    
+  
+  backend:
+    build: 
+      context: .
+      dockerfile: ./backend/Dockerfile
+    image: pathviewer-backend
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend:/api/
+    depends_on:
+      - frontend
+  
+  mongodb:
+    image: mongodb/mongodb-community-server:6.0-ubi8
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=user
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    volumes:
+      - ./data:/data/db
