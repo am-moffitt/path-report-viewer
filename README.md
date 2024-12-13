@@ -1,3 +1,4 @@
+# M-Llama - Local and Private LLM Framework for Data Extraction
 ![M-Llama Framework](M-Llama-image.png)
 # Install Instructions
 - Create a 'data' directory in the root directory, this is for the local mongodb instance
