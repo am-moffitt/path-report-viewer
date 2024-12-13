@@ -38,7 +38,6 @@ const Home = () => {
         const funcName = 'Home.getData(): ';
         let logMesg = '';
 
-        // console.log('======== Home.getData(): getDataUrl.current = ' + getDataUrl.current);
         logMesg = 'getDataUrl.current = ' + getDataUrl.current;
         clientUtil.logDebug('======== ' + funcName + logMesg);
 
@@ -53,7 +52,6 @@ const Home = () => {
                 )});
         }
 
-        // console.log('++++++ Home.getData(): dataType.current = ' + dataType.current);
         logMesg = 'dataType.current = ' + dataType.current;
         clientUtil.logDebug('++++++ ' + funcName + logMesg);
     }
@@ -66,8 +64,6 @@ const Home = () => {
         dataType.current = Constants.DATA_TYPES.public;
         getDataUrl.current = Constants.SERVER_ENDPOINTS.getPublicData;
 
-        // console.log('---- Home.getPublicData(): dataType.current = ' + dataType.current
-        //            + '; getDataUrl.current = ' + getDataUrl.current);
         logMesg = 'dataType.current = ' + dataType.current + '; getDataUrl.current = ' + getDataUrl.current;
         clientUtil.logDebug('---- ' + funcName + logMesg);
 
@@ -82,8 +78,6 @@ const Home = () => {
         dataType.current = Constants.DATA_TYPES.synthetic;
         getDataUrl.current = Constants.SERVER_ENDPOINTS.getSyntheticData;
 
-        // console.log('------ Home.getSyntheticData(): dataType.current = ' + dataType.current
-        //            + '; getDataUrl.current = ' + getDataUrl.current);
         logMesg = 'dataType.current = ' + dataType.current + '; getDataUrl.current = ' + getDataUrl.current;
         clientUtil.logDebug('------ ' + funcName + logMesg);
             

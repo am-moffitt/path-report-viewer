@@ -35,13 +35,12 @@ const MedicalReport = ({ reportData, dataType }) => {
             if (!clientUtil.isEmpty(match) && match.length > 1) {
               logMesg = 'match = ' + JSON.stringify(match);
               clientUtil.logDebug('---- ' + funcName + logMesg);
-              // console.log('---- MedicalReport.useEffect(): match = ' + JSON.stringify(match));
+
               setOrgan(match[1]);
             }
           }
         }
-        // console.log('------ MedicalReport.useEffect(): reportData.pdf_file_name = ' + (reportData.pdf_file_name ?? '')
-        //            + '; organ = ' + organ);
+
         logMesg = ' reportData.pdf_file_name = ' + (reportData.pdf_file_name ?? '') + '; organ = ' + organ;
         clientUtil.logDebug('---- ' + funcName + logMesg);
       }
