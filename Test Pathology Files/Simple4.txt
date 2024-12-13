@@ -1,0 +1,30 @@
+Surgical Pathology Report
+
+Patient Information:
+
+Name: Emily Harris
+Age: 58
+Sex: Female
+Medical Record Number: 67890
+Date of Surgery: December 12, 2024
+Referring Physician: Dr. Adams
+Clinical Information:
+
+Indication for Surgery: Right breast mass, biopsy-confirmed invasive ductal carcinoma.
+Procedure: Right lumpectomy with sentinel lymph node biopsy.
+Gross Description:
+
+Specimen Received: The specimen consists of right breast tissue measuring 3.0 cm x 2.5 cm x 1.5 cm with a firm, irregular, palpable mass 1.5 cm in diameter. The lymph nodes are dissected separately.
+Microscopic Description:
+
+Diagnosis:
+Site: Right breast
+Laterality: Right breast
+Stage: pT1c (Tumor is ≤2 cm, confined to the breast)
+Grade: Grade 2 (Moderately differentiated)
+Histology: Invasive ductal carcinoma (IDC)
+Behavior: Malignant (Invasive carcinoma)
+Final Diagnosis:
+
+Invasive ductal carcinoma (IDC), Grade 2, pT1c.
+No lymph node involvement in the sentinel node biopsy.

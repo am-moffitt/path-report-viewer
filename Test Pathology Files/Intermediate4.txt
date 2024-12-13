@@ -1,0 +1,29 @@
+Surgical Pathology Report
+Patient Information:
+
+Name: Emily Harris
+Age: 58
+Sex: Female
+Medical Record Number: 67890
+Date of Surgery: December 12, 2024
+Referring Physician: Dr. Adams
+Clinical Information:
+This patient, a 58-year-old woman, presented with a palpable mass identified on clinical examination, which was later confirmed by biopsy as malignant. The mass was situated in the breast, and the procedure performed was a partial excision of the breast tissue alongside a sentinel lymph node biopsy for staging purposes.
+
+Procedure Description:
+A lumpectomy was carried out with dissection of the sentinel lymph nodes, aimed at removing the tumor and assessing potential lymphatic spread. The specimen sent for pathological evaluation was oriented, inked, and sectioned accordingly.
+
+Gross Examination:
+Upon gross inspection, the specimen consisted of a section of breast tissue with a firm and irregularly shaped lesion. This tumor mass was approximately 1.5 cm across and was located within the larger specimen. The tissue surrounding the tumor was also submitted for further histopathological assessment, with several lymph nodes included separately.
+
+Histologic Findings:
+The sections of breast tissue revealed a well-circumscribed tumor composed of malignant cells forming glandular structures. The architecture was predominantly tubular, with occasional areas of solid growth. No evidence of lymphovascular invasion was observed. The tumor cells were arranged in a somewhat orderly fashion, but nuclear pleomorphism was noted, alongside moderate mitotic activity. There was no involvement of the chest wall or skin. The examined sentinel lymph nodes were free of metastatic disease.
+
+Final Pathological Considerations:
+Based on the histological features and the extent of tumor involvement, the lesion is consistent with a common type of breast carcinoma. The tumor's size and histologic features suggest a moderately differentiated malignancy confined to the breast. The sentinel node biopsy did not reveal any sign of metastatic involvement.
+
+Conclusion:
+
+The neoplastic growth is confined within the breast tissue with a size limit that indicates a localized tumor.
+Histologically, the tumor exhibits characteristics typical of invasive carcinoma, but it does not show aggressive features like vascular invasion or involvement beyond the breast.
+The lymph node analysis revealed no evidence of metastatic spread.

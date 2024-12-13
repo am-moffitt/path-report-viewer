@@ -1,0 +1,31 @@
+Simple Level Report (Easy for LLM to Extract Information)
+Surgical Pathology Report
+
+Patient Information:
+
+Name: John Smith
+Age: 68
+Sex: Male
+Medical Record Number: 12345
+Date of Surgery: December 5, 2024
+Referring Physician: Dr. Richards
+Clinical Information:
+The patient underwent a prostate biopsy due to an elevated PSA. The biopsy confirmed the presence of adenocarcinoma. A radical prostatectomy was subsequently performed.
+
+Procedure Description:
+Radical prostatectomy was performed to remove the prostate gland and surrounding tissue. The surgical specimen, including the prostate and nearby lymph nodes, was sent for pathological evaluation.
+
+Gross Examination:
+The prostate specimen measures 6.5 cm x 5.0 cm x 3.5 cm. The tissue contains a firm, irregular mass within the prostate gland. The surrounding tissues are unremarkable. Lymph nodes were dissected separately for evaluation.
+
+Microscopic Examination:
+Sections show a poorly differentiated adenocarcinoma with a Gleason score of 9 (4+5). Tumor cells are arranged in irregular glands with notable nuclear pleomorphism. No extraprostatic extension is seen, and the surgical margins are negative. The lymph nodes show no evidence of metastatic involvement.
+
+Final Diagnosis:
+
+Site: Prostate
+Laterality: Not specified
+Stage: pT2b
+Grade: Gleason score 9 (4+5)
+Histology: Prostatic adenocarcinoma
+Behavior: Malignant

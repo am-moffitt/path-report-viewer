@@ -1,0 +1,17 @@
+Surgical Pathology Report
+
+Patient Information:
+
+James Roberts
+66
+Male
+Record Number: 11223
+October 15, 2024
+Physician: Dr. Lee
+Clinical Background:
+This male patient presented with a persistently elevated PSA level. After initial workup, a biopsy was performed, confirming malignant findings within the prostate. The decision was made for a radical prostatectomy to manage the disease.
+The prostate was excised in a radical prostatectomy, removing the gland and adjacent structures. The specimen was carefully oriented for pathologic review. In addition, regional lymph nodes were separately processed for potential metastases.
+The received specimen consisted of a 6.5 cm x 5.0 cm x 3.5 cm prostate with an irregular area of firmness within the tissue. Several lymph nodes were also submitted separately. The prostate capsule was intact, and no obvious signs of invasion into nearby structures were identified grossly.
+Examination revealed an invasive malignancy within the prostate. The tumor cells demonstrated a marked degree of pleomorphism, with large, irregular nuclei and prominent nucleoli. The glandular structures were disorganized, indicative of a high-grade tumor. The Gleason score was noted to be 9 (4+5). There was no evidence of perineural invasion, and the surgical margins remained clear. The surrounding prostate tissue appeared unaffected.
+The lymph nodes, though examined in detail, showed no signs of metastatic deposits. The tumor remains localized to the prostate gland, with no extension beyond the capsule. There is no evidence of lymphatic or vascular invasion, and the surgical margins are uninvolved by the tumor. The lymph node examination further supports the absence of metastatic disease.
+The prostate tissue contains a malignant lesion, confined to the gland without involvement of adjacent structures. The tumor grade reflects significant cellular atypia and irregular glandular formation. There is no evidence of regional lymphatic involvement or distant metastasis.

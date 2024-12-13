@@ -1,0 +1,15 @@
+Surgical Pathology Report
+Patient Information:
+
+Emily Harris
+58
+Female
+Record Number: 67890
+Surgery: December 12, 2024
+Dr. Adams
+The patient presented with a palpable mass on examination that was later confirmed as malignant through biopsy. This lesion was located in the breast tissue, and the surgical procedure involved excising part of the breast to remove the tumor along with a sentinel lymph node biopsy for staging purposes.
+A conservative surgical approach was undertaken to remove the suspicious mass. Along with the primary excision, the sentinel lymph nodes were carefully dissected to evaluate potential spread to regional nodes. The specimen was oriented for pathological processing.
+The specimen consisted of a section of breast tissue, which displayed an irregular lesion. This mass, measuring approximately 1.5 cm in its largest dimension, was surrounded by normal-appearing breast parenchyma. The tumor appeared well-defined, and several lymph nodes were included in the submission, placed separately for further investigation.
+Microscopic examination revealed a malignant neoplasm composed of cells that formed well-defined glands with some areas showing a more solid growth pattern. The tumor cells demonstrated varying nuclear sizes, with increased mitotic activity, but without significant lymphatic or vascular invasion. The surrounding tissue remained largely unaffected, and no skin or chest wall involvement was seen. The lymph nodes were evaluated separately, showing no evidence of metastatic spread.
+The neoplastic growth is confined to the breast, with no evidence of extension into surrounding structures or lymphatic dissemination. Histologically, the lesion presents with characteristic patterns typically seen in invasive carcinomas of the breast, but no aggressive features like deep tissue involvement were observed. The findings from the sentinel lymph node evaluation were reassuring, showing no signs of metastatic disease.
+The tumor is encapsulated within the breast, with no external or regional spread.Histologically, the carcinoma shows typical differentiation for its type, though no further invasion beyond the primary site has been noted.The sentinel node biopsy confirms the absence of metastatic involvement.

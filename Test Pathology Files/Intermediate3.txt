@@ -1,0 +1,43 @@
+
+**Surgical Pathology Report**
+
+**Patient Information:**
+- **Name:** Robert Green
+- **Age:** 62
+- **Sex:** Male
+- **Medical Record Number:** 54321
+- **Date of Surgery:** December 7, 2024
+- **Referring Physician:** Dr. White
+
+---
+
+**Clinical Information:**
+- **Indication for Surgery:** Gastric cancer, upper abdominal pain, weight loss, and positive biopsy results from gastroscopy.
+- **Procedure:** Subtotal gastrectomy with D2 lymph node dissection.
+- **Additional Information:** History of chronic gastritis. No family history of gastric cancer.
+
+---
+
+**Gross Description:**
+- **Specimen Received:** The specimen consists of a portion of the stomach measuring 14 cm in length and 6 cm in width, with a tumor located in the antrum. The tumor measures 5.5 cm in greatest dimension, with a firm, irregular, and ulcerated surface. Multiple regional lymph nodes are submitted separately.
+- **Tumor Location:** The tumor is located approximately 3 cm from the proximal resection margin and 1 cm from the distal margin.
+
+---
+
+**Microscopic Description:**
+- **Histologic Sections: Gastric adenocarcinoma, poorly differentiated. Multiple sections show invasive, poorly differentiated adenocarcinoma with ulceration. The tumor infiltrates into the submucosa, muscularis propria, and extends to the serosa. There is evidence of vascular invasion, and regional lymph nodes show metastatic disease.
+- **Diagnosis:**
+  -  The stage knowing that the tumor extends through the serosa into the surrounding adipose tissue is pT4a. The adenocarcinoma was found to be a grade three.
+  -  Behavior for tumors can be hard to distinguish. This one was found to be malignant. 
+
+---
+
+**Final Diagnosis:**
+- **Gastric adenocarcinoma**, poorly differentiated, **pT4a**.
+- **Invasion** through the serosa with metastatic disease in 2 out of 12 regional lymph nodes.
+
+---
+
+**Comments:**
+- The tumor demonstrates an aggressive phenotype with extensive local invasion. Given the presence of regional lymph node metastasis, further staging and adjuvant therapy are recommended for the management of this patient.This tumor was found in the stomach. No laterality was reported. 
+  

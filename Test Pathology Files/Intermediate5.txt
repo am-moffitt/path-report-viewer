@@ -1,0 +1,30 @@
+Surgical Pathology Report
+
+Patient Information:
+
+Name: Thomas Miller
+Age: 72
+Sex: Male
+Medical Record Number: 98765
+Date of Surgery: November 18, 2024
+Referring Physician: Dr. Williams
+Clinical Information:
+The patient presented with increased PSA levels, which prompted further diagnostic evaluation. A biopsy of the prostate confirmed the presence of carcinoma. A radical prostatectomy was recommended to address the malignancy.
+
+Procedure Description:
+The patient underwent a radical prostatectomy to excise the prostate and adjacent structures. The surgical specimen, including periprostatic tissue and lymph nodes, was submitted for analysis.
+
+Gross Examination:
+The prostate specimen was received in a well-oriented manner and measured approximately 7.2 cm x 5.0 cm x 3.0 cm. A firm, irregularly shaped tumor mass was noted within the gland. The surrounding tissue appeared relatively uninvolved, and lymph nodes were dissected separately for further examination.
+
+Histological Findings:
+Microscopic evaluation reveals an invasive prostate adenocarcinoma. The tumor cells show irregular glandular formation with prominent nucleoli and moderate pleomorphism. The Gleason grade is 4+5, corresponding to a high-grade malignancy. There is no evidence of perineural invasion, and the surgical margins are negative. Lymph node assessment reveals no metastatic involvement.
+
+Staging and Final Diagnosis:
+The tumor is confined to the prostate gland, with no extension into adjacent structures. No evidence of regional or distant metastasis was noted.
+
+Summary:
+
+The prostate tissue is involved by a moderately aggressive adenocarcinoma, as reflected by the Gleason score.
+The tumor remains localized to the prostate, with no evidence of extra-capsular spread.
+There is no lymph node involvement, indicating a potentially favorable prognosis.
