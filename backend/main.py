@@ -32,9 +32,17 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.get("/v1/reports")
+@app.get("/v1/public-reports")
 async def reports():
     file_path = './app/data/data.json'
+    if os.path.exists(file_path):
+        return FileResponse(file_path)
+    else:
+        return Response(content="File not found", status_code=404)
+    
+@app.get("/v1/synthetic-reports")
+async def reports():
+    file_path = './app/data/test_data.json'
     if os.path.exists(file_path):
         return FileResponse(file_path)
     else:

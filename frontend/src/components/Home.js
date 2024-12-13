@@ -1,10 +1,14 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import axios from "axios"
 import Header from "./Header"
 import MedicalReport from "./MedicalReport"
 
+import * as Constants from '../services/clientConstants';
+import ClientUtil from '../services/clientUtil';
 
 const Home = () => {
+
+    const clientUtil = new ClientUtil();
 
     const [reports, setReports] = useState([])
     const [loading, setLoading] = useState([])
@@ -12,34 +16,107 @@ const Home = () => {
     const [currentReportIndex, setCurrentReportIndex] = useState(0);
     const currentReport = reports[currentReportIndex];
 
+    // const getDataUrlOptions = {public: '/v1/reports', synthetic: '/v1/test-reports'};
+    // const dataTypeOptions = {public: 'Public', synthetic: 'Synthetic'};
+
+    const dataType = useRef(Constants.DATA_TYPES.public);
+    const getDataUrl = useRef(Constants.SERVER_ENDPOINTS.getPublicData);
+
     useEffect(() => {
-        axios.get("/v1/reports").then(res => 
+        /*
+       axios.get("/v1/reports").then(res => 
             {
                 setReports(res.data)
             })
             .catch(err => {console.log(err)});
+        */
+        getData();
     }, []);
 
+    const getData = () => {
+
+        const funcName = 'Home.getData(): ';
+        let logMesg = '';
+
+        // console.log('======== Home.getData(): getDataUrl.current = ' + getDataUrl.current);
+        logMesg = 'getDataUrl.current = ' + getDataUrl.current;
+        clientUtil.logDebug('======== ' + funcName + logMesg);
+
+        if (!clientUtil.isEmpty(getDataUrl.current)) {
+
+            axios.get(getDataUrl.current)
+                .then(res => {
+                    setReports(res.data);
+                })
+                .catch(err => {
+                    console.log(err
+                )});
+        }
+
+        // console.log('++++++ Home.getData(): dataType.current = ' + dataType.current);
+        logMesg = 'dataType.current = ' + dataType.current;
+        clientUtil.logDebug('++++++ ' + funcName + logMesg);
+    }
+
+    const getPublicData = async (event) => {
+
+        const funcName = 'Home.getPublicData(): ';
+        let logMesg = '';
+
+        dataType.current = Constants.DATA_TYPES.public;
+        getDataUrl.current = Constants.SERVER_ENDPOINTS.getPublicData;
+
+        // console.log('---- Home.getPublicData(): dataType.current = ' + dataType.current
+        //            + '; getDataUrl.current = ' + getDataUrl.current);
+        logMesg = 'dataType.current = ' + dataType.current + '; getDataUrl.current = ' + getDataUrl.current;
+        clientUtil.logDebug('---- ' + funcName + logMesg);
+
+        getData();
+    }
+
+    const getSyntheticData = async (event) => {
+
+        const funcName = 'Home.getSyntheticData(): ';
+        let logMesg = '';
+
+        dataType.current = Constants.DATA_TYPES.synthetic;
+        getDataUrl.current = Constants.SERVER_ENDPOINTS.getSyntheticData;
+
+        // console.log('------ Home.getSyntheticData(): dataType.current = ' + dataType.current
+        //            + '; getDataUrl.current = ' + getDataUrl.current);
+        logMesg = 'dataType.current = ' + dataType.current + '; getDataUrl.current = ' + getDataUrl.current;
+        clientUtil.logDebug('------ ' + funcName + logMesg);
+            
+        getData();
+    }
 
     return (
         <>
-        <div>
-            <Header
-                reports={reports} 
-                currentReportIndex={currentReportIndex} 
-                setCurrentReportIndex={setCurrentReportIndex} 
-            />
-            {currentReport && (
-                <MedicalReport reportData={currentReport} />
-            )}
-            
-
-        </div>
-
-        
+            <div>
+                <p/>
+                <div>
+                    <button type="button" className="btn btn-sm btn-outline-success appButton text-center"
+                                onClick={e => {getPublicData(e)}}>
+                            Public Data
+                    </button>
+                    &nbsp;&nbsp;
+                    <button type="button" className="btn btn-sm btn-outline-success appButton text-center"
+                                onClick={e => {getSyntheticData(e)}}>
+                            Synthetic Data
+                    </button>
+                </div>
+                <Header
+                    reports={reports} 
+                    currentReportIndex={currentReportIndex} 
+                    setCurrentReportIndex={setCurrentReportIndex} 
+                    dataType={dataType.current}
+                />
+                {currentReport && (
+                    <MedicalReport reportData={currentReport} dataType={dataType.current} />
+                )}
+            </div>
         </>
     )
 }
-
 
 export default Home
