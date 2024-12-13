@@ -20,7 +20,7 @@ const MedicalReport = ({ reportData }) => {
         {error && <p style={{ color: 'red' }}>{error}</p>}
         {!error && reportData && (
           <div style={{ marginTop: '20px', border: '1px solid #ccc', padding: '10px', borderRadius: '5px' }}>
-            <h3>Diagnosis Report</h3>
+            <h3>Diagnosis Report</h3> 
             <p>Organ: {reportData.organ}</p>
             <p><strong> Pathology Report :</strong> {reportData.text}</p>
             <div>
@@ -29,6 +29,22 @@ const MedicalReport = ({ reportData }) => {
                 <ReactMarkdown>{reportData.stage_1_output}</ReactMarkdown>
               </div>
             </div>
+            {/* Stage 2 */}
+            {/* <div>
+              <strong>AI Evaluation:</strong>
+              <div style={{ margin: '10px 0', padding: '10px', background: '#f9f9f9', borderRadius: '5px', border: '1px solid #ddd' }}>
+                <ReactMarkdown>{reportData.stage_2_output}</ReactMarkdown>
+              </div>
+            </div> */}
+            {/* Stage 3 */}
+            {/* <div>
+              <strong>Final Output:</strong>
+              <div style={{ margin: '10px 0', padding: '10px', background: '#f9f9f9', borderRadius: '5px', border: '1px solid #ddd' }}>
+                <ReactMarkdown>{reportData.stage_3_output}</ReactMarkdown>
+              </div>
+            </div> */}
+
+
           </div>
         )}
       </div>
