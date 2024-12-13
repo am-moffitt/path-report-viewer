@@ -4,7 +4,7 @@ from typing import Any
 import json
 import os
 from tqdm.auto import tqdm
-from prompts import (
+from backend.app.services.prompts import (
     stage_1_prompt_template,
     stage_2_prompt_template,
     stage_3_prompt_template,
