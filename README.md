@@ -1,3 +1,4 @@
+![M-Llama Framework](M-Llama-image.png)
 # Install Instructions
 - Create a 'data' directory in the root directory, this is for the local mongodb instance
 - Run the following command in the root directory of the project:
