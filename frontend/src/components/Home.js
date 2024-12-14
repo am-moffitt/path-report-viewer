@@ -16,9 +16,6 @@ const Home = () => {
     const [currentReportIndex, setCurrentReportIndex] = useState(0);
     const currentReport = reports[currentReportIndex];
 
-    // const getDataUrlOptions = {public: '/v1/reports', synthetic: '/v1/test-reports'};
-    // const dataTypeOptions = {public: 'Public', synthetic: 'Synthetic'};
-
     const dataType = useRef(Constants.DATA_TYPES.public);
     const getDataUrl = useRef(Constants.SERVER_ENDPOINTS.getPublicData);
 

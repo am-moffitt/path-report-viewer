@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown';
 
-import * as Constants from '../services/clientConstants';
+// import * as Constants from '../services/clientConstants';
 import ClientUtil from '../services/clientUtil';
 
 const MedicalReport = ({ reportData, dataType }) => {
