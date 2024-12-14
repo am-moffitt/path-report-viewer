@@ -14,6 +14,13 @@ const Home = () => {
     const [loading, setLoading] = useState([])
 
     const [currentReportIndex, setCurrentReportIndex] = useState(0);
+
+    if (!clientUtil.isEmpty(reports) && currentReportIndex >= reports.length) {
+        setCurrentReportIndex(0);
+        clientUtil.logDebug('............ Home: reports.length = ' + reports.length 
+                            + '; currentReportIndex = ' + currentReportIndex);
+    }
+
     const currentReport = reports[currentReportIndex];
 
     const dataType = useRef(Constants.DATA_TYPES.public);
